@@ -1,0 +1,104 @@
+/* General styling */
+
+body {
+    font-family: 'Roboto', arial, sans-serif;
+    color: rgb(10,10,10);
+    font-weight: 400;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: 'Roboto Mono', monospace; 
+}
+h1 span {
+  color: #00b4fe;
+}
+a:hover {
+  text-decoration: none;
+  color:white;
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  background: url(../images/background.svg) no-repeat center -570px; 
+  text-align: center;
+}
+
+  /* Hero-Navigation */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  /*align-items: center;*/
+  padding: 30px 275px;  
+}
+
+.navigation ul li {
+  padding: 15px 0;
+  display: inline-block;
+  margin-left: 20px;
+
+}
+
+.navigation a {
+  color: white;
+}
+
+header .container p {
+  color: white;
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.btn-blue {
+  font-family: 'Roboto';
+  background-color: #00b4fe;
+  color: white;
+  padding: 28px 140px;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.navigation a .lang {
+  height: 16px;
+}
+
+.navigation a span {
+   border: 1px solid white;
+   padding: 10px 20px;
+   border-radius: 2px;
+}
+
+/* Companies */
+
+.companies {
+  text-align: center;
+  background-color: 
+}
+
+.companies-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.companies-logos img {
+  width: 9%;
+  filter: grayscale(100);
+}
+
+
+/* Students */
+
+.students img {
+  width: 400px;
+}
+
+.first {
+  order: 1;
+}
